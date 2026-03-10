@@ -23,7 +23,3 @@ Backend:
 Database:
 - SQLite
 
-- ## How to Run
-
-1. Clone the repository
-git clone 
