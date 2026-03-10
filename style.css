@@ -1,0 +1,138 @@
+/* ===== Global Styles ===== */
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+}
+
+/* ===== Authentication Pages ===== */
+
+h2{
+    text-align:center;
+    color:#0b1f3a;
+    margin-top:40px;
+}
+
+input{
+    display:block;
+    margin:12px auto;
+    padding:10px;
+    width:260px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+button{
+    display:block;
+    margin:12px auto;
+    padding:10px 20px;
+    border:none;
+    background:#0b1f3a;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1f3c6d;
+}
+
+a{
+    display:block;
+    text-align:center;
+    margin-top:10px;
+    text-decoration:none;
+    color:#0b1f3a;
+}
+
+/* ===== Dashboard ===== */
+
+h3{
+    text-align:center;
+    margin-top:20px;
+}
+
+/* Form Section */
+
+form{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+/* Search Box */
+
+#searchInput{
+    display:block;
+    margin:20px auto;
+    padding:8px;
+    width:250px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+/* Table */
+
+table{
+    width:80%;
+    margin:20px auto;
+    border-collapse:collapse;
+    background:white;
+}
+
+th{
+    background:#0b1f3a;
+    color:white;
+}
+
+th, td{
+    padding:10px;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+}
+
+/* Row hover effect */
+
+tr:hover{
+    background:#f1f5fb;
+}
+
+/* Edit Button */
+
+.editBtn{
+    background:#2980b9;
+    padding:5px 10px;
+    border:none;
+    color:white;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.editBtn:hover{
+    background:#1f6391;
+}
+
+/* Delete Button */
+
+.deleteBtn{
+    background:#e74c3c;
+    padding:5px 10px;
+    border:none;
+    color:white;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.deleteBtn:hover{
+    background:#c0392b;
+}
+
+/* Logout Button */
+
+button[onclick="logoutUser()"]{
+    margin-top:20px;
+}
+#na{
+    text-align:center;
+    margin-top:20px;
+}
